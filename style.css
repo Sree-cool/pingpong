@@ -3,9 +3,26 @@ body
  background-size: cover;
 }
 
+.heading h3{
+    display: inline;
+}
 
-.heading
-{
-width: 100%;
-text-align: center;
+.heading{
+    width: 100%;
+    text-align: left;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: rgb(87, 87, 87);
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(77, 255, 216);
+    line-height: 3;
+    text-align: center;
 }
